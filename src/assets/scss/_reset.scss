@@ -168,8 +168,7 @@ audio,
 canvas,
 video {
   display: inline-block;
-  display: inline;
-  zoom: 1;
+
   max-width: 100%;
 }
 
@@ -220,7 +219,6 @@ legend {
   border: 0;
   padding: 0;
   white-space: normal;
-  margin-left: -7px;
 }
 
 button,
@@ -230,7 +228,6 @@ textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
-  vertical-align: middle;
 }
 
 button,
@@ -250,7 +247,6 @@ input[type='submit'] {
   appearance: button;
   -webkit-appearance: button;
   cursor: pointer;
-  overflow: visible;
 }
 
 button[disabled],
