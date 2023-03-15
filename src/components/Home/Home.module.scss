@@ -1,7 +1,11 @@
 .homePage {
   &__container {
-    padding: 80px;
+    padding: 5rem;
     min-height: 100vh;
+
+    @media (max-width: 1536px) {
+      padding: 2.5rem;
+    }
   }
   &__sides {
     display: flex;
@@ -9,15 +13,27 @@
   }
   &__rightSide {
     margin-right: 5rem;
+
+    @media (max-width: 1536px) {
+      margin-right: 2.5rem;
+    }
   }
   &__titleBlock {
-    margin-top: 202px;
+    margin-top: 12.625rem;
+
+    @media (max-width: 1536px) {
+      margin-top: 9.625rem;
+    }
   }
 }
 
 .rightSide {
   &__form {
-    width: 600px;
+    width: 37.5rem;
+
+    @media (max-width: 1536px) {
+      width: 30rem;
+    }
   }
   &__copyright {
     display: flex;
@@ -26,21 +42,37 @@
     font-size: 1rem;
     line-height: 1.5rem;
     color: rgba(51, 51, 51, 0.8);
+
+    @media (max-width: 1536px) {
+      font-size: 0.875rem;
+    }
   }
 }
 
 .header {
   &__logo {
     width: 17.813rem;
+
+    @media (max-width: 1536px) {
+      width: 14.3125rem;
+    }
   }
 }
 
 .titleBlock {
   &__subtitle {
     margin-bottom: 1rem;
+
+    @media (max-width: 1536px) {
+      margin-bottom: 0.8125rem;
+    }
   }
   &__title {
     margin-bottom: 2.0625rem;
+
+    @media (max-width: 1536px) {
+      margin-bottom: 1.25rem;
+    }
   }
   &__description {
     margin-left: 5rem;
@@ -53,6 +85,10 @@
   line-height: 5rem;
   color: #181818;
 
+  @media (max-width: 1536px) {
+    font-size: 4.25rem;
+  }
+
   &__dot {
     margin-left: 0.5625rem;
   }
@@ -62,9 +98,17 @@
   font-size: 2.5rem;
   line-height: 1.5rem;
   color: #181818;
+
+  @media (max-width: 1536px) {
+    font-size: 2rem;
+  }
 }
 
 .description {
   font-size: 1rem;
   line-height: 1.5rem;
+
+  @media (max-width: 1536px) {
+    font-size: 0.875rem;
+  }
 }

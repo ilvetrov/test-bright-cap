@@ -13,6 +13,10 @@
   line-height: 1.5rem;
   color: #8e8e8e;
 
+  @media (max-width: 1536px) {
+    font-size: 1.25rem;
+  }
+
   &_active {
     color: #eb445a;
     font-weight: 600;

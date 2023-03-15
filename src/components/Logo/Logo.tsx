@@ -2,7 +2,7 @@ import styles from './Logo.module.scss'
 
 export default function Logo() {
   return (
-    <a href="/" className={styles.link}>
+    <a href="." className={styles.link}>
       <img
         src="/img/logo.svg"
         alt="BrightCap"

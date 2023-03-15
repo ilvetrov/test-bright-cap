@@ -1,5 +1,9 @@
 html {
   font-size: 16px;
+
+  @media (min-width: 1921px) {
+    font-size: 0.8333333vw;
+  }
 }
 
 body {

@@ -8,6 +8,11 @@
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     padding-bottom: 1.0625rem;
+
+    @media (max-width: 1536px) {
+      padding-top: 2.25rem;
+      padding-bottom: 0.4375rem;
+    }
   }
   &__label {
     position: absolute;
@@ -16,6 +21,11 @@
     transform-origin: top left;
     transform: scale(1.25) translateY(0.4375rem);
     transition: transform 0.2s;
+
+    @media (max-width: 1536px) {
+      top: 0.5rem;
+      transform: scale(1.286) translateY(0.4375rem);
+    }
   }
   &__input {
     &:not([value='']),
@@ -34,6 +44,10 @@
   background: none;
   border: none;
   border-radius: 0.5rem;
+
+  @media (max-width: 1536px) {
+    font-size: 1.125rem;
+  }
 }
 
 .label {
@@ -41,4 +55,8 @@
   line-height: 1.5rem;
   color: rgba(17, 17, 17, 0.5);
   cursor: text;
+
+  @media (max-width: 1536px) {
+    font-size: 0.875rem;
+  }
 }

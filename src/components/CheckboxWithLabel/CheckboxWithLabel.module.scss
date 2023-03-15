@@ -7,5 +7,9 @@
     font-size: 1rem;
     line-height: 1.5rem;
     cursor: pointer;
+
+    @media (max-width: 1536px) {
+      font-size: 0.875rem;
+    }
   }
 }
