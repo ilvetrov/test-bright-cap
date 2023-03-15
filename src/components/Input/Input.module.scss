@@ -1,0 +1,44 @@
+.inputBlock {
+  position: relative;
+  border: 0.0625rem solid rgba(17, 17, 17, 0.32);
+  border-radius: 0.5rem;
+
+  &__input {
+    padding-top: 2.3125rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-bottom: 1.0625rem;
+  }
+  &__label {
+    position: absolute;
+    top: 1rem;
+    left: 0.9375rem;
+    transform-origin: top left;
+    transform: scale(1.25) translateY(0.4375rem);
+    transition: transform 0.2s;
+  }
+  &__input {
+    &:not([value='']),
+    &:focus {
+      + .inputBlock__label {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.input {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #111;
+  background: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.label {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgba(17, 17, 17, 0.5);
+  cursor: text;
+}

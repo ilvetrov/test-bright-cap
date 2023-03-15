@@ -1,0 +1,11 @@
+.block {
+  display: flex;
+  align-items: center;
+
+  &__label {
+    padding-left: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,29 @@
+.tab {
+  width: 100%;
+  cursor: pointer;
+
+  &__line {
+    margin-top: 0.4375rem;
+  }
+}
+.tabContent {
+  display: flex;
+  justify-content: center;
+  font-size: 1.625rem;
+  line-height: 1.5rem;
+  color: #8e8e8e;
+
+  &_active {
+    color: #eb445a;
+    font-weight: 600;
+  }
+}
+.tabLine {
+  width: 100%;
+  height: 0.125rem;
+  background-color: #e3e3e3;
+
+  &_active {
+    background-color: #eb445a;
+  }
+}

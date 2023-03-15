@@ -1,5 +1,70 @@
+.homePage {
+  &__container {
+    padding: 80px;
+    min-height: 100vh;
+  }
+  &__sides {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__rightSide {
+    margin-right: 5rem;
+  }
+  &__titleBlock {
+    margin-top: 202px;
+  }
+}
+
+.rightSide {
+  &__form {
+    width: 600px;
+  }
+  &__copyright {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(51, 51, 51, 0.8);
+  }
+}
+
+.header {
+  &__logo {
+    width: 17.813rem;
+  }
+}
+
+.titleBlock {
+  &__subtitle {
+    margin-bottom: 1rem;
+  }
+  &__title {
+    margin-bottom: 2.0625rem;
+  }
+  &__description {
+    margin-left: 5rem;
+  }
+}
+
 .title {
   font-weight: 700;
   font-size: 5rem;
   line-height: 5rem;
+  color: #181818;
+
+  &__dot {
+    margin-left: 0.5625rem;
+  }
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+  color: #181818;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }

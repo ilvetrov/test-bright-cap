@@ -1,0 +1,48 @@
+.checkboxBlock {
+  display: flex;
+
+  &__checkbox {
+    visibility: hidden;
+    width: 0rem;
+    height: 0rem;
+  }
+}
+
+.label {
+  cursor: pointer;
+  display: inline-block;
+  background-color: inherit;
+  outline: 0.0625rem #eb445a solid;
+  outline-offset: -0.0625rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+  user-select: none;
+
+  &__arrow {
+    width: 0.9375rem;
+    height: 0.75rem;
+    padding-top: 0.375rem;
+    padding-left: 0.3125rem;
+    padding-right: 0.25rem;
+    padding-bottom: 0.375rem;
+    box-sizing: content-box;
+    transform: scale(0.5);
+    transition: transform 0.2s;
+  }
+
+  &_active {
+    background-color: #eb445a;
+  }
+  &_active & {
+    &__arrow {
+      transform: scale(1);
+    }
+  }
+}
+
+.arrow {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+}

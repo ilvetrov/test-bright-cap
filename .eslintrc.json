@@ -111,7 +111,8 @@
     "class-methods-use-this": "off",
     "func-names": "off",
     "react/prop-types": "off",
-    "prefer-arrow-callback": "off"
+    "prefer-arrow-callback": "off",
+    "jsx-a11y/label-has-associated-control": "off"
   },
   "overrides": [
     {

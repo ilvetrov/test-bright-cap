@@ -1,0 +1,40 @@
+.form {
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+
+  &__secondShadow {
+    box-shadow: 0rem 0rem 0.5625rem 0.5rem rgba(91, 91, 91, 0.08);
+  }
+  &__container {
+    padding-top: 3.125rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 8.75rem;
+  }
+  &__tabsContainer {
+    margin-bottom: 2.5rem;
+  }
+  &__inputs {
+    margin-bottom: 2.875rem;
+  }
+  &__checkbox {
+    margin-bottom: 1.75rem;
+  }
+}
+
+.tabs {
+  display: flex;
+  width: 100%;
+}
+
+.inputs {
+  margin-top: -1.25rem;
+  margin-bottom: -1.25rem;
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
