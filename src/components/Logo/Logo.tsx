@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <a href="." className={styles.link}>
       <img
-        src="/img/logo.svg"
+        src="img/logo.svg"
         alt="BrightCap"
         loading="lazy"
         decoding="async"

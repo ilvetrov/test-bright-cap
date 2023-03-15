@@ -16,7 +16,7 @@ export default function Checkbox(props: { active?: boolean; id?: string }) {
       >
         <div className={styles.label__arrow}>
           <img
-            src="/img/checked-arrow.svg"
+            src="img/checked-arrow.svg"
             alt="✓"
             loading="lazy"
             decoding="async"
