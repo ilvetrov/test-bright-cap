@@ -4,6 +4,9 @@ html {
   @media (min-width: 1921px) {
     font-size: 0.8333333vw;
   }
+  @media (max-width: 359px) {
+    font-size: 4.44vw;
+  }
 }
 
 body {
@@ -13,7 +16,6 @@ body {
   font-size: 1rem;
   line-height: 1;
   color: #000;
-  background-color: #f4f4f4;
 }
 
 * {

@@ -17,7 +17,7 @@ export default function Form() {
               </div>
             </div>
           </div>
-          <div className={styles.form__inputsContainer}>
+          <div className={styles.form__content}>
             <div className={styles.form__inputs}>
               <div className={styles.inputs}>
                 <div className={styles.inputs__input}>

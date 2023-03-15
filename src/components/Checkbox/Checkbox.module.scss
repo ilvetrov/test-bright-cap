@@ -18,6 +18,10 @@
   transition: background-color 0.2s;
   user-select: none;
 
+  @media (max-width: 460px) {
+    border-radius: 0.15rem;
+  }
+
   &__arrow {
     width: 0.9375rem;
     height: 0.75rem;
@@ -28,6 +32,17 @@
     box-sizing: content-box;
     transform: scale(0.5);
     transition: transform 0.2s;
+
+    @media (max-width: 460px) {
+      width: 0.43rem;
+      height: 0.3438rem;
+      padding-top: 0.1663rem;
+      padding-right: 0.1144rem;
+      padding-bottom: 0.2075rem;
+      padding-left: 0.1706rem;
+      position: relative;
+      left: -0.05rem;
+    }
   }
 
   &_active {
@@ -35,7 +50,7 @@
   }
   &_active & {
     &__arrow {
-      transform: scale(1);
+      transform: scale(1.001);
     }
   }
 }

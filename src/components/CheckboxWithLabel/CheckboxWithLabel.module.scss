@@ -11,5 +11,12 @@
     @media (max-width: 1536px) {
       font-size: 0.875rem;
     }
+    @media (max-width: 460px) {
+      font-size: 0.625rem;
+      line-height: 1;
+      padding-left: 0.4781rem;
+      position: relative;
+      top: 0.0313rem;
+    }
   }
 }

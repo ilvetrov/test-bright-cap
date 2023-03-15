@@ -23,17 +23,16 @@ export default function Home() {
                 <div className={styles.titleBlock__title}>
                   <h1 className={styles.title}>
                     Let’s Connect
-                    <span className={styles.title__dot}>
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle cx="6" cy="6" r="6" fill="#EB445A" />
-                      </svg>
-                    </span>
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className={styles.title__dot}
+                    >
+                      <circle cx="6" cy="6" r="6" fill="#EB445A" />
+                    </svg>
                   </h1>
                 </div>
                 <div className={styles.titleBlock__description}>
